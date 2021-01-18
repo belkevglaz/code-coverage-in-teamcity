@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'io.quarkus'
-        id 'jacoco'
+//    id 'jacoco'
 }
 
 repositories {
@@ -34,7 +34,7 @@ compileTestJava {
     options.encoding = 'UTF-8'
 }
 
-jacoco {
-    toolVersion = "0.8.6"
-}
+//jacoco {
+//    toolVersion = "0.8.6"
+//}
 
